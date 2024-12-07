@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>image gallery</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+            <style>
+        @media (max-width: 768px) {
+            main {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body class="p-4">
+    <header class="bg-blue-500 text-white p-4"> 
+        <h1 class="text-3xl">Grid and Flexbox Layout</h1>
+    </header>
+
+    <section class="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <img src="image1.jpg" alt="Gallery Image 1" class="w-full">
+        <img src="image2.jpg" alt="Gallery Image 2" class="w-full">
+        <img src="image3.jpg" alt="Gallery Image 3" class="w-full">
+      </section>
+      
+</body>
+</html>
